@@ -1,7 +1,16 @@
+/* eslint-disable react/prefer-stateless-function */
+import React from 'react';
 import './App.scss';
+import Calculator from './components/calculator/calculator.component';
 
-function App() {
-  return <h1 className="hello">Hello World</h1>;
+class App extends React.Component {
+  render() {
+    return (
+      <div className="main-container">
+        <Calculator />
+      </div>
+    );
+  }
 }
 
 export default App;
