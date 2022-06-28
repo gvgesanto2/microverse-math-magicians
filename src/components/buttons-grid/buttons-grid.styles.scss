@@ -6,7 +6,7 @@
   &__btn {
     background-color: var(--color-grey-200);
     color: var(--color-grey-900);
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-grey-350);
     transition: filter 0.2s;
 
     &:hover {

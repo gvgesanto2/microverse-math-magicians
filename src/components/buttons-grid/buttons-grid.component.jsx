@@ -6,7 +6,7 @@ import './buttons-grid.styles.scss';
 
 export default class ButtonsGrid extends React.Component {
   render() {
-    const { buttonsRows } = this.props;
+    const { buttonsRows, handleClickCallback } = this.props;
 
     return (
       <div className="buttons-grid">
@@ -21,6 +21,9 @@ export default class ButtonsGrid extends React.Component {
                     ? 'buttons-grid__btn--primary'
                     : ''
                 } ${buttonName === '0' ? 'buttons-grid__btn--lg' : ''}`}
+                onClick={() => {
+                  handleClickCallback(buttonName);
+                }}
               >
                 {buttonName}
               </button>
@@ -33,6 +36,7 @@ export default class ButtonsGrid extends React.Component {
 }
 
 ButtonsGrid.propTypes = {
-  buttonsRows: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string))
+  buttonsRows: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string).isRequired)
     .isRequired,
+  handleClickCallback: PropTypes.func.isRequired,
 };
