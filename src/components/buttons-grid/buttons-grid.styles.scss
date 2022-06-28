@@ -1,0 +1,24 @@
+.buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, var(--calculator-row-height));
+
+  &__btn {
+    background-color: var(--color-grey-200);
+    color: var(--color-grey-900);
+    border: 1px solid var(--color-grey-350);
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.95);
+    }
+
+    &--lg {
+      grid-column: span 2;
+    }
+
+    &--primary {
+      background-color: var(--color-primary);
+    }
+  }
+}

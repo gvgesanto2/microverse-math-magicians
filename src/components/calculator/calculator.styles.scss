@@ -2,25 +2,13 @@
   max-width: 30rem;
 
   &__display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: var(--calculator-row-height);
     font-weight: 500;
-    line-height: 2rem;
-    text-align: end;
     background-color: var(--color-grey-600);
     color: var(--color-white);
-    padding: 1rem 0.5rem;
-  }
-
-  &__buttons-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, var(--calculator-row-height));
-
-    & > .calculator__grid-cell {
-      border: 1px solid #ccc;
-
-      &--lg {
-        grid-column: span 2;
-      }
-    }
+    padding: 0 0.5rem;
   }
 }

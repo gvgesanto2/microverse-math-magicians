@@ -17,8 +17,8 @@ body {
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  background-color: $color-gray-150;
-  color: $color-gray-900;
+  background-color: var(--color-grey-150);
+  color: var(--color-grey-900);
 }
 
 a {
