@@ -2,7 +2,7 @@
 
 # Math Magicians
 
-> This is a calculator application built using React.
+> This is a Calculator Application built using React, which allows users to do simple math operations such as addition, subtraction, multiplication, division, and modulo.
 
 
 ## Built With
