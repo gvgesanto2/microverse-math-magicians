@@ -1,0 +1,11 @@
+.quote-page {
+  max-width: 85rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 8rem 0;
+
+  &__text {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+}
