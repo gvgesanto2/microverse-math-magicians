@@ -1,12 +1,16 @@
-import Calculator from './components/calculator/calculator.component';
+import { Route, Routes } from 'react-router-dom';
 
 import './App.scss';
+import Header from './components/header/header.component';
+import HomePage from './pages/homepage/homepage.component';
 
 function App() {
   return (
-    <div className="main-container">
-      <Calculator />
-    </div>
+    <Routes>
+      <Route path="/" element={<Header />}>
+        <Route index element={<HomePage />} />
+      </Route>
+    </Routes>
   );
 }
 
