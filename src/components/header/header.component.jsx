@@ -1,5 +1,7 @@
 import { Link, Outlet } from 'react-router-dom';
 
+import './header.styles.scss';
+
 export default function Header() {
   return (
     <>
@@ -10,14 +12,20 @@ export default function Header() {
 
         <nav className="header__nav">
           <ul className="header__nav-list">
-            <li className="header__nav-link">
-              <Link to="/">home</Link>
+            <li>
+              <Link className="header__nav-link" to="/">
+                home
+              </Link>
             </li>
-            <li className="header__nav-link">
-              <Link to="/calculator">calculator</Link>
+            <li>
+              <Link className="header__nav-link" to="/calculator">
+                calculator
+              </Link>
             </li>
-            <li className="header__nav-link">
-              <Link to="/quote">quote</Link>
+            <li>
+              <Link className="header__nav-link" to="/quote">
+                quote
+              </Link>
             </li>
           </ul>
         </nav>
