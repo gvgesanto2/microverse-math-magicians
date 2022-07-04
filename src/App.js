@@ -1,6 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
 
-import './App.scss';
 import Header from './components/header/header.component';
 import CalculatorPage from './pages/calculator-page/calculator-page.component';
 import HomePage from './pages/homepage/homepage.component';
