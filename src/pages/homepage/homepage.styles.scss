@@ -1,0 +1,13 @@
+.home {
+  &__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+  }
+
+  &__text-box {
+    & > *:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+}

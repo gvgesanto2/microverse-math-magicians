@@ -28,11 +28,11 @@ const Calculator = () => {
     const { total, next, operation } = calculate(calculatorData, buttonName);
     setCalculatorData({ total, next, operation });
 
-    if (!total && !next && !operation) {
-      return setDisplayedInfo(DEFAULT_DISPLAYED_INFO);
+    if (operation) {
+      return setDisplayedInfo(`${total} ${operation} ${next || ''}`);
     }
 
-    return setDisplayedInfo(next || total);
+    return setDisplayedInfo(next || total || DEFAULT_DISPLAYED_INFO);
   };
 
   return (

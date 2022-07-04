@@ -1,5 +1,10 @@
 .calculator {
+  width: 100%;
   max-width: 30rem;
+
+  @media only screen and (min-width: 64em) {
+    max-width: 50rem;
+  }
 
   &__display {
     display: flex;
@@ -10,5 +15,10 @@
     background-color: var(--color-grey-600);
     color: var(--color-white);
     padding: 0 0.5rem;
+
+    @media only screen and (min-width: 64em) {
+      height: calc(var(--calculator-row-height) * 2);
+      font-size: 2.4rem;
+    }
   }
 }

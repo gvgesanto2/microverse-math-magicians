@@ -5,12 +5,21 @@
   --color-grey-200: #e1e1e6;
   --color-grey-350: #ccc;
   --color-grey-600: #606060;
+  --color-grey-700: #424145;
+  --color-grey-800: #272a32;
   --color-grey-900: #121214;
   --color-white: #fff;
 
   // Other color variables
   --color-primary: var(--color-primary-300);
+  --color-bg-header: var(--color-grey-800);
 
   // Other variables
   --calculator-row-height: 4rem;
+
+  // Header
+  --header-height: 7rem;
+
+  // Main Content
+  --main-content-max-width: 160rem;
 }
