@@ -12,16 +12,6 @@ $hamburger-btn-icon-gap: 0.8rem;
   background-color: var(--color-bg-header);
   z-index: 100;
 
-  &:hover {
-    opacity: 0.9;
-    .hamburger-btn__icon::before {
-      top: -($hamburger-btn-icon-gap + 0.2rem);
-    }
-    .hamburger-btn__icon::after {
-      top: $hamburger-btn-icon-gap + 0.2rem;
-    }
-  }
-
   &__icon {
     position: relative;
 
@@ -65,8 +55,20 @@ $hamburger-btn-icon-gap: 0.8rem;
       top: 0;
       transform: rotate(-135deg);
     }
+  }
 
-    &:hover {
+  &:hover {
+    opacity: 0.9;
+
+    .hamburger-btn__icon::before {
+      top: -($hamburger-btn-icon-gap + 0.2rem);
+    }
+
+    .hamburger-btn__icon::after {
+      top: $hamburger-btn-icon-gap + 0.2rem;
+    }
+
+    &:hover.hamburger-btn--is-active {
       .hamburger-btn__icon::before,
       .hamburger-btn__icon::after {
         top: 0;
