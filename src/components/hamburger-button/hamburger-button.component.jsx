@@ -6,7 +6,7 @@ export default function HamburgerButton({ handleClick, isHamburgerMenuOpen }) {
   return (
     <button
       type="button"
-      aria-label="Open hamburger menu"
+      aria-label="hamburger button"
       className={`hamburger-btn ${
         isHamburgerMenuOpen ? 'hamburger-btn--is-active' : ''
       }`}

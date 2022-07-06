@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        aria-label="Open hamburger menu"
+        aria-label="hamburger button"
         class="hamburger-btn "
         type="button"
       >
@@ -20,7 +20,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      aria-label="Open hamburger menu"
+      aria-label="hamburger button"
       class="hamburger-btn "
       type="button"
     >
@@ -91,7 +91,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        aria-label="Open hamburger menu"
+        aria-label="hamburger button"
         class="hamburger-btn hamburger-btn--is-active"
         type="button"
       >
@@ -105,7 +105,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      aria-label="Open hamburger menu"
+      aria-label="hamburger button"
       class="hamburger-btn hamburger-btn--is-active"
       type="button"
     >

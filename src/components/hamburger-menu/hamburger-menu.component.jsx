@@ -16,6 +16,7 @@ export default function HamburgerMenu() {
 
   return (
     <div
+      data-testid="hamburger-menu"
       className={`hamburger-menu ${
         isHamburgerMenuOpen ? 'hamburger-menu--is-active' : ''
       }`}

@@ -30,7 +30,7 @@ describe('Header component', () => {
     expect(window.location.pathname).toBe('/');
   });
 
-  it('should navigate to the homepage when clicking the calculator navigation link', () => {
+  it('should navigate to the calculator page when clicking the calculator navigation link', () => {
     const CalculatorNavLink = screen.getByRole('link', { name: 'calculator' });
 
     userEvent.click(CalculatorNavLink);
@@ -38,7 +38,7 @@ describe('Header component', () => {
     expect(window.location.pathname).toBe('/calculator');
   });
 
-  it('should navigate to the homepage when clicking the quote navigation link', () => {
+  it('should navigate to the quote page when clicking the quote navigation link', () => {
     const QuoteNavLink = screen.getByRole('link', { name: 'quote' });
 
     userEvent.click(QuoteNavLink);

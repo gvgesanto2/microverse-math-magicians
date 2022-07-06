@@ -58,9 +58,10 @@ Object {
           >
             <div
               class="hamburger-menu "
+              data-testid="hamburger-menu"
             >
               <button
-                aria-label="Open hamburger menu"
+                aria-label="hamburger button"
                 class="hamburger-btn "
                 type="button"
               >
@@ -179,9 +180,10 @@ Object {
         >
           <div
             class="hamburger-menu "
+            data-testid="hamburger-menu"
           >
             <button
-              aria-label="Open hamburger menu"
+              aria-label="hamburger button"
               class="hamburger-btn "
               type="button"
             >
