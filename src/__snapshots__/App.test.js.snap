@@ -136,6 +136,7 @@ Object {
           >
             <div
               class="calculator__display"
+              data-testid="calculator-display"
             >
               0
             </div>
@@ -394,6 +395,7 @@ Object {
         >
           <div
             class="calculator__display"
+            data-testid="calculator-display"
           >
             0
           </div>
