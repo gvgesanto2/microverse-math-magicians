@@ -10,7 +10,7 @@ export default function Header() {
     <>
       <header className="header">
         <div className="header__content">
-          <Link to="/">
+          <Link to="/" data-testid="logo-link">
             <span className="header__logo">math magicians</span>
           </Link>
 

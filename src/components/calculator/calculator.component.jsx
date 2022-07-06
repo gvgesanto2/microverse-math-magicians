@@ -37,7 +37,7 @@ const Calculator = () => {
 
   return (
     <div className="calculator">
-      <div className="calculator__display">{displayedInfo}</div>
+      <div data-testid="calculator-display" className="calculator__display">{displayedInfo}</div>
       <ButtonsGrid
         buttonsRows={buttonsRows}
         handleClickCallback={handleCalculation}
