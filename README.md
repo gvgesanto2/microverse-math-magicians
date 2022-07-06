@@ -46,6 +46,14 @@ $ npm install
 $ npm start
 ```
 
+### Testing
+
+After installing all the project dependencies using the first command mentioned in the section ``install``, run this command in the root project directory:
+
+```console
+$ npm test
+```
+
 ## Authors
 
 👤 **Gabriel Santo**
@@ -53,6 +61,14 @@ $ npm start
 - GitHub: [@gvgesanto2](https://github.com/gvgesanto2)
 - Twitter: [@GabrielSanto997](https://twitter.com/GabrielSanto997)
 - LinkedIn: [Gabriel Santo](https://linkedin.com/in/gabriel-santo-5882a71b2/)
+
+## Contributors
+
+👤 **Edward Achike**
+
+- GitHub: [@chumaachike](https://github.com/chumaachike)
+- Twitter: [@AchikeChuma](https://twitter.com/AchikeChuma)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/edward-achike-903432111/)
 
 ## 🤝 Contributing
 
@@ -66,4 +82,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is MIT licensed.
+This project is [MIT](./MIT.md) licensed.
